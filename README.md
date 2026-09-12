@@ -2,102 +2,66 @@
 
 
 
-# [Project Name] 🎯
+# Blink Eye Detector🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: WinG
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: T S Suryanarayanan - TocH institute of science and technology 
+- Member 2: Thimothy M Shiju - TocH institute of science and technology 
 
 ### Project Description
-[2-3 lines about what your project does]
+A web application that uses our web cam and analyze our face to track the number of blinks of our eye
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+To check if human eyes actually blink frequently 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We tell how many times your eyes blink in your give time
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python 
+-Frameworks & UI: Streamlit
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+-Computer Vision & ML: MediaPipe Tasks Vision (FaceLandmarker), OpenCV (opencv-python-headless)
+
+-Data & Math Processing: NumPy, Pandas
+
+-Visualization: Plotly Graph Objects
+
+-AI Commentary Engine: Google GenAI SDK (google-genai / Gemini 2.5 Flash)
+
+Developer Tools: Visual Studio Code, Git, GitHub
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+# Clone the repository
+git clone https://github.com/<your-username>/Blink.git
+cd Blink
+
+# Create and activate a virtual environment
+python -m venv .venv
+
+# On Windows:
+.\.venv\Scripts\activate
+
+# On Linux/macOS:
+# source .venv/bin/activate
+
+# Install required dependencies
+pip install streamlit opencv-python-headless mediapipe plotly pandas numpy google-genai
 
 # Run
-[commands]
+streamlit run app.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub Useless Projects 
-
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
 
